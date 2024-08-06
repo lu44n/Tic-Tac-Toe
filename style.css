@@ -1,0 +1,33 @@
+:root {
+    --bg-color: #202424;
+    --text-color: #bcbcc0;
+}
+
+* {
+    font-family: "JetBrains Mono", monospace;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    text-align: center;
+    margin: 18px;
+}
+
+#userWhoPlays {
+    text-align: center;
+    font-size: 20px;
+}
+
+#restartBttn {
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #505050;
+    border-width: 0px;
+}
