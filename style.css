@@ -3,6 +3,7 @@
     --text-color: #bcbcc0;
     --secondary-color: #505050;
     --hover-color: #2d2e2d;
+    --cell-color: #dadadd;
 }
 
 * {
@@ -58,6 +59,10 @@ footer {
     background-color: var(--secondary-color);
     width: 200px;
     height: 200px;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    color: var(--cell-color);
 }
 
 .cell:hover {
